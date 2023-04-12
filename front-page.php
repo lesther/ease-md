@@ -349,12 +349,12 @@
     </div>
 </section>
 
-<section class="section section_pad-bottom_none section_pad-top_md--md section_pad-top_xs section_pad-bottom_none" style="background-image: url('<?php echo get_theme_file_uri() . '/images/cover-color-v1.jpg' ?>' );">
+<section class="section section_pad-bottom_none section_pad-top_sm--md section_pad-top_xs section_pad-bottom_none" style="background-image: url('<?php echo get_theme_file_uri() . '/images/cover-color-v1.jpg' ?>' );">
     <div class="wrap-container-sm">
         <div class="row align-items-center">
-            <div class="col col-md-7 col-lg-6">
+            <div class="col col-md-7">
                 <div class="text-center text-md-start">
-                    <h2 class="title_xxl title_hero--sm title_xxl--md title_hero--xl title_primary-accent title_weight-black mb-5">
+                    <h2 class="title_xxl title_hero--sm title_xxl--md title_hero-1--xl title_primary-accent title_weight-black mb-5">
                         <span class="d-block">
                             EasyMD
                         </span>
@@ -375,7 +375,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="" class="d-block mx-auto">
             </div>
         </div>

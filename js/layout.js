@@ -29,14 +29,25 @@ navBtn.addEventListener("click", function() {
 if(document.querySelector("#swiper-testimonials")){
     const swiper = new Swiper('#swiper-testimonials', {
         speed: 400,
-        spaceBetween: 10,
+        spaceBetween: 30,
         grabCursor: true,
         slidesPerView: 1.5,
+        loop: true,
+        centeredSlides: true,
         breakpoints: {
-        992: {
-            slidesPerView: 2.5,
-        }
-      }
+            850: {
+                slidesPerView: 2,
+            },
+            1200: {
+                slidesPerView: 2.5,
+            },
+            1300: {
+                slidesPerView: 3.5,
+            },
+            1500: {
+                slidesPerView: 4.5,
+            }
+          }
     });
 }
 
