@@ -385,7 +385,7 @@
 </section>
 
 <section class="section section_lighter testimonials">
-    <div class="text-center mb-5">
+    <div class="text-center mb-md-4 mb-lg-5">
         <h2 class="title title_weight-black title_primary-accent title_lg title_hero-1--md title_hero--xl title_align-center h-line-height-sm-1">
             Testimonios
         </h2>
