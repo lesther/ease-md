@@ -1,0 +1,107 @@
+/////////////////////////////
+// images
+.full-image {
+	@include background(cover, center, no-repeat);
+}
+.full-image_backward {
+	@include background(cover, center, no-repeat);
+	@include position(absolute, 0, null, 0, null, 100%, 100%);
+}
+.full-image_backward-contain {
+	@include background(contain, center, no-repeat);
+	@include position(absolute, 0, null, 0, null, 100%, 100%);
+}
+.full-image_height-auto {
+	@include background(auto 100%, center, no-repeat);
+}
+.full-image_overlay {
+	position: relative;
+	@include background(0px, 0 200%);
+	&:before{
+		content: "";
+		background-image: inherit;
+		@extend .full-image;
+		@include position(absolute, 0, null, 0, null, 100%, 100%);
+		z-index: 1;
+	}
+	> *{
+		position: relative;
+		z-index: 2;
+	}
+}
+.full-image_overlay-thin:before {
+	@include opacity(10)
+}
+.full-image_overlay-light:before {
+	@include opacity(20)
+}
+.full-image_overlay-medium:before {
+	@include opacity(50)
+}
+.full-image_overlay-hard:before {
+	@include opacity(70)
+}
+
+.box_image {
+	padding:10px;
+	@include background(35px 35px, center, no-repeat);
+	border: 1px solid rgba($color: $primary-color, $alpha: 0.5);
+	background-color: $light-color;
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzYzQjQ5QiI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0yMSAxOVY1YzAtMS4xLS45LTItMi0ySDVjLTEuMSAwLTIgLjktMiAydjE0YzAgMS4xLjkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJ6TTguNSAxMy41bDIuNSAzLjAxTDE0LjUgMTJsNC41IDZINWwzLjUtNC41eiIvPjwvc3ZnPg==');
+}
+.box_image[style*="background-image"] {
+	@include background(cover, null, null);
+}
+.box_image-rounded {
+	@include corner(10px);
+}
+.box_image-square-sm {
+	min-width: 75px;
+	min-height: 75px;
+}
+
+// profile
+.profile {
+	@extend .full-image;
+    @include corner(100%);
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+	border: 0px solid transparent;
+	position: relative;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	&:before {
+		content: "";
+		@include position(absolute, 0, 0, 0, 0, calc(100% - 4px), calc(100% - 4px));
+		border: 0 solid;
+		border-color: inherit;
+		margin: auto;
+		@include corner(100%);
+	}
+}
+
+.profile_offset {
+	margin-top: -50px;
+}
+
+.profile_bordered-md {
+	border-width: 5px;
+}
+
+.profile_bordered-sm {
+	border-width: 3px;
+}
+
+.profile_inner-bordered:before {
+	border-width: 1px;
+}
+
+/////////////////////////////
+//format
+@each $colorClass, $value in $colorClass-palette {
+	.profile_bordered-#{$colorClass} {
+		border-color: $value;
+	}
+}

@@ -1,0 +1,122 @@
+//////////////////////////////
+// COLORS
+$background-body: #fff;
+$light-color: #fff;
+//fonts
+$dark-color: #525252;
+$darkness-color: #252525;
+$black-color: #000;
+$dark-color--accent: #51685b;
+$gray-color: #B7B7B6;
+$gray-text-color: #8C8C8C;
+$gray-color--accent: #4c4545;
+//background
+$lighter-color: #f2f5f8;
+$lighter-color--primary: #EFF7F5;
+$lighter-color--dark: #D8D8D8;
+
+//default
+$danger-color: #e60040;
+$danger-light-color: #EF2E4F;
+$danger-color--accent: #ff195b;
+$warning-color: #ffd900;
+$warning-color--accent: #ffc400;
+$success-color: #59bb00;
+$success-color--accent: #20a500;
+$primary-color: #63b49b;
+$primary-color--accent: #003970;
+$primary-highlight--accent: #80EEC2;
+$secondary-color: #f1be4e;
+$secondary-color--accent: #EF2E4F;
+$secondary-color--light: #f4d49d;
+$leading-color: #8957C0;
+$leading-color--accent: #80EEC2;
+$leading-color--light: #FBF2E1;
+//forms
+$disabled-color: #bdbdbd;
+$gray-border-color: #cccccc;
+$split-color: rgba(0, 0, 0, 0.15);
+
+//////////////////////////////
+// panel
+$spacing-menu-sm: 100px;
+$spacing-menu-default: 300px;
+
+//////////////////////////////
+// colors
+$colorClass-palette: (
+	"light": $light-color,
+	"dark": $dark-color,
+	"gray": $gray-color,
+	"gray-accent": $gray-color,
+	"leading": $leading-color,
+	"leading-accent": $leading-color--accent,
+	"primary-accent": $primary-color--accent,
+	"secondary": $secondary-color,
+	"secondary-accent": $secondary-color--accent,
+	"primary": $primary-color,
+	"success": $success-color,
+	"danger": $danger-color,
+	"danger-light":	$danger-light-color,
+	"black": $black-color,
+	"disabled": $disabled-color,
+	"warning": $warning-color,
+	"lighter": $lighter-color,
+	"lighter-primary": $lighter-color--primary,
+	"lighter-dark": $lighter-color--dark,
+	"gray-label": $gray-text-color
+) !default;
+
+$mixClass-palette: (
+	"black": ( bg: $black-color, color: $light-color ),
+	"light": ( bg: $light-color, color: inherit, input-color: inherit ),
+	"light-2": ( bg: $light-color, input-color: inherit, color: inherit ),
+	"lighter": ( bg: $lighter-color, color: inherit ),
+	"lighter-2": ( bg: $lighter-color, input-color: inherit, color: inherit ),
+	"lighter-primary": ( bg: $lighter-color--primary, color: inherit ),
+	"dark": ( bg: $dark-color, color: $light-color ),
+	"gray": ( bg: $gray-color, color: inherit ),
+	"leading": ( bg: $leading-color, color: $light-color ),
+	"leading-light": ( bg: $leading-color--light, color: inherit ),
+	"primary": ( bg: $primary-color, color: $light-color ),
+	"primary-accent": ( bg: $primary-color--accent, color: $light-color ),
+	"secondary": ( bg: $secondary-color, color: $light-color ),
+	"secondary-accent": ( bg: $secondary-color--accent, color: $light-color ),
+	"success": ( bg: $success-color, color: $light-color ),
+	"danger": ( bg: $danger-color, color: $light-color ),
+	"danger-light": ( bg: $danger-light-color, color: $light-color ),
+	"disabled": ( bg: $disabled-color, color: $light-color ),
+	"warning": ( bg: $warning-color, color: $light-color )
+) !default;
+
+$buttons-palette: (
+  "transparent": ( bg: transparent, hover: $primary-color, color: $primary-color, color-hover: $light-color ),
+  "light": ( bg: $light-color, hover: $primary-color, color: inherit ),
+  "lighter": ( bg: $lighter-color, hover: $light-color, color: inherit ),
+  "dark": ( bg: $dark-color, hover: $primary-color, color: $light-color ),
+  "gray": ( bg: $gray-color, hover: $gray-color--accent, color: $light-color ),
+  "leading": ( bg: $leading-color, hover: $secondary-color, color: $light-color ),
+  "leading-accent": ( bg: $leading-color--accent, hover: $primary-color--accent, color: $primary-color--accent, color-hover: $light-color ),
+  "primary": ( bg: $primary-color, hover: $primary-color--accent, color: $light-color ),
+  "primary-accent": ( bg: $primary-color--accent, hover: $light-color, color: $light-color, color-hover: $primary-color--accent ),
+  "secondary": ( bg: $secondary-color, hover: $secondary-color--accent, color: $light-color ),
+  "success": ( bg: $success-color, hover: $success-color--accent, color: $light-color ),
+  "danger": ( bg: $danger-color, hover: $danger-color--accent, color: $light-color ),
+  "warning": ( bg: $warning-color, hover: $warning-color--accent, color: $light-color )
+) !default;
+
+$chartPie-palette: (
+	"light": ( start-color: $light-color, end-color: $light-color, fill-color: rgba($color: $light-color, $alpha: 0.1) ),
+	"dark": ( start-color: $gray-color, end-color: $dark-color, fill-color: rgba($color: $light-color, $alpha: 0.1) ),
+	"gray": ( start-color: $gray-color, end-color: $lighter-color, fill-color: $lighter-color ),
+	"leading": ( start-color: $leading-color, end-color: $leading-color, fill-color: $lighter-color ),
+	"primary": ( start-color: $primary-color, end-color: $primary-color--accent, fill-color: $lighter-color ),
+	"primary-accent": ( start-color: $primary-color--accent, end-color: $primary-color, fill-color: $lighter-color ),
+	"secondary": ( start-color: $secondary-color, end-color:  $secondary-color--accent, fill-color: $lighter-color ),
+	"secondary-accent": ( start-color: $secondary-color--accent, end-color:$secondary-color, fill-color: $lighter-color ),
+	"success": ( start-color: $success-color, end-color: $success-color--accent, fill-color: $lighter-color ),
+	"danger": ( start-color: $danger-color, end-color: $danger-color--accent, fill-color: $lighter-color ),
+	"warning": ( start-color: $warning-color, end-color: $warning-color--accent, fill-color: $lighter-color ),
+	"lighter": ( start-color: $lighter-color, end-color: $gray-color, fill-color: rgba($color: $light-color, $alpha: 0.1) )
+) !default;
+

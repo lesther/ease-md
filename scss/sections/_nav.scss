@@ -1,0 +1,33 @@
+//////////////////////////////
+// nav
+.nav-side {
+	max-width: $width-menu;
+	@include side-section(left);
+	@include md {
+		max-width: $width-menu-icons;
+		@include shadow(none);
+        @include transform(translateX(0));
+		padding: 10px;
+		padding-top: calc(25px + #{$header-height});
+		z-index: initial;
+	}
+}
+
+// active
+.menu-active{
+    .nav-side {
+        @include transform(translateX(0));
+    }
+	.menu-toggle:before {
+		visibility: visible;
+		@include opacity(100);
+	}
+}
+
+//format color
+@each $colorClass, $value in $colorClass-palette {
+	.nav-side_#{$colorClass} {
+		@extend .nav-side;
+		background-color: $value;
+	}
+}

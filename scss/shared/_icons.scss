@@ -1,0 +1,154 @@
+
+/////////////////////////////
+// icon images
+.icon-group-container {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.icon-group__item {
+	display: block;
+	@include transition(0.3s);
+	transform-origin: center;
+	max-width: none;
+}
+.icon-group__item-display {
+	display: block;
+	@include transition(0.3s);
+	@include opacity(0);
+	@include position(absolute, 0, null, 0, null, 100%, 100%);
+	@include transform(scale(0));
+	transform-origin: center;
+	z-index: 1;
+}
+.icon-group-hover *:focus ~ * .icon-group__item-display,
+.icon-group-hover.active .icon-group__item-display,
+.icon-group-hover:hover .icon-group__item-display {
+	@include transform(scale(1));
+	@include opacity(100);
+}
+.icon-group-hover *:focus ~ * .icon-group__item:not(.icon-group__item-display),
+.icon-group-hover.active .icon-group__item:not(.icon-group__item-display),
+.icon-group-hover:hover .icon-group__item:not(.icon-group__item-display) {
+	@include transform(scale(0));
+	@include opacity(0);
+}
+
+// rounded
+.icon_rounded {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	z-index: 1;
+	display: inline-flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.icon_rounded:before {
+	content: "";
+	height: 100%;
+	width: 100%;
+	@include position(absolute, 0, 0, 0, 0, 100%, 100%);
+	@include corner(100%);
+	z-index: -1;
+	margin: auto;
+}
+
+// icon fonts
+.icon_xs {
+	@extend .text_sm;
+	line-height: 1;
+}
+.icon_sm {
+	@extend .text_md;
+    line-height: 1;
+}
+.icon_sm-1 {
+	@extend .text_lg;
+    line-height: 1;
+}
+.icon_md {
+	@extend .text_xl;
+    line-height: 1;
+}
+.icon_lg {
+	height: 30px;
+	width: 30px;
+	@extend .text_xxl;
+    line-height: 1;
+}
+
+// status point
+.status-view {
+	position: relative;
+}
+.status-view:before {
+	content: "";
+	@include position(absolute, -1px, null, -4px, null, 10px, 10px);
+	@include corner(100%);
+	@include transition(0.3s);
+	border: 2px solid transparent;
+	z-index: 2;
+}
+.status-view:after {
+	content: "";
+	@include position(absolute, -1px, null, -4px, null, 10px, 10px);
+	@include corner(100%);
+	@include transition(0.3s);
+	border: 2px solid transparent;
+	animation: pulse 1.5s infinite ease-in;
+}
+
+// close
+.close_icon {
+	@include position(absolute, 10px, null, null, 10px, null, null);
+}
+
+@keyframes pulse {
+	from {
+		@include transform(scale(0.5));
+		@include opacity(100);
+	}
+  
+	to {
+		@include transform(scale(2));
+		@include opacity(0);
+	}
+}
+
+/////////////////////////////
+// format color
+@each $colorClass, $value in $colorClass-palette {
+	.status-view[data-status="#{$colorClass}"]:before {
+		background-color: $value;
+		border-color: $light-color;
+	}
+	.status-view[data-status="#{$colorClass}"]:after {
+		background-color: $value;
+	}
+	.icon_rounded-highlight-#{$colorClass}{
+		@extend .icon_rounded;
+		color: $value;
+	}
+	.icon_rounded-highlight-#{$colorClass}:before {
+		background-color: rgba($color: $value, $alpha: 0.15);
+		@extend .icon_rounded;
+	}
+	.icon_#{$colorClass} {
+		color: $value;
+	}
+}
+
+
+//format color
+@each $colorClass, $value in $buttons-palette {
+	.icon_rounded-#{$colorClass} {
+		@extend .icon_rounded;
+		color: map-get($value, 'color');
+	}
+	.icon_rounded-#{$colorClass}:before {
+		background-color: map-get($value, 'bg');
+		@extend .icon_rounded;
+	}
+}

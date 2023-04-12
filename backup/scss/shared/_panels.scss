@@ -1,0 +1,18 @@
+/////////////////////////////
+// panels
+.panel{
+    position: relative;
+    z-index: 99;
+}
+
+// toggle
+.panel-toggle:before {
+    @include side-section__overlay;
+}
+
+// format
+@each $colorClass, $value in $colorClass-palette {
+    .panel__wrap-#{$colorClass} {
+		background-color: $value;
+	}
+}

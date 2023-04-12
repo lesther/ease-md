@@ -1,0 +1,30 @@
+.search {
+    position: relative;
+   
+    &_input{
+        height: 47px;
+    }
+
+    &_items{
+        display: block;
+        padding-left: 20px;
+        
+        &:hover{
+            background-color: $lighter-color;
+        }
+    }
+
+    &_results {
+        @extend .h-inner-spacing-vertical-sm;
+        @include position(absolute, 50px, null, 0, null, 100%, null);
+        @include shadow(0 2px 4px rgba($color: $dark-color, $alpha: 0.2));
+        @include transform(scale(0));
+        @include corner(12px);
+        background-color: $light-color;
+        z-index: 1;
+    }
+    &_input.active ~ .search_results,
+    &_input:focus ~ .search_results {
+        @include transform(scale(1));
+    }
+}

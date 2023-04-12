@@ -1,0 +1,170 @@
+/////////////////////////////
+//box
+.box {
+	position: relative;
+	padding: 20px;
+	@include corner(10px);
+	border: 1px solid transparent;
+}
+.box_pad-none {
+	padding: 0;
+}
+.box_xs {
+	padding: 5px;
+	@include corner(5px);
+}
+.box_xs-1 {
+	padding: 10px;
+	@include corner(5px);
+}
+.box_sm {
+	padding: 15px;
+	@include corner(10px);
+}
+.box_md {
+	padding: 20px;
+	@include corner(10px);
+}
+.box_lg {
+	padding: 30px;
+	@include corner(10px);
+}
+.box_rounded-none {
+	@include corner(0);
+}
+.box_rounded-sm {
+	@include corner(10px);
+}
+.box_rounded-md {
+	@include corner(20px);
+}
+.box_rounded-oval {
+	@include corner(50px);
+}
+.box_shadow-sm {
+    @include shadow(0 0 10px 0 rgba($color: $dark-color, $alpha: 0.15));
+}
+.box_shadow-lg {
+    @include shadow(0 0 3rem 0 rgba($color: $dark-color, $alpha: 0.15));
+}
+// outline 
+.box_outline-md {
+	border-width: 2px
+}
+//format color
+@each $colorClass, $value in $mixClass-palette {
+	.box_highlight-#{$colorClass} {
+		@extend .box;
+		background-color: rgba($color: map-get($value, 'bg'), $alpha: 0.1);
+		color: map-get($value, 'bg');
+	}
+	.box_outline-#{$colorClass} {
+		border-color: rgba($color: map-get($value, 'bg'), $alpha: 0.3);
+	}
+	.box_outline-solid-#{$colorClass} {
+		border-color: map-get($value, 'bg');
+	}
+	.box_outline-vertical-#{$colorClass} {
+		border-top-color: rgba($color: map-get($value, 'bg'), $alpha: 0.4);
+		border-bottom-color: rgba($color: map-get($value, 'bg'), $alpha: 0.4);
+	}
+	.box_#{$colorClass} {
+		@extend .box;
+		background-color: map-get($value, 'bg');
+		color: map-get($value, 'color');
+	}
+	.box_hover-#{$colorClass} {
+		@include transition(0.3s);
+	}
+	.box_hover-#{$colorClass}:hover {
+		border-color: rgba($color: map-get($value, 'bg'), $alpha: 1);
+		@include shadow(0 0 0 0.25rem rgba($color: map-get($value, 'bg'), $alpha: 0.15));
+	}
+}
+
+// breakpoints
+.box--web {
+	@include only-mobile {
+		padding: 0px;
+		border-color: transparent;
+		background: transparent;
+	}
+}
+
+.box_lighter-primary--md {
+	@include md {
+		background-color: $lighter-color--primary;
+	}
+}
+.box_lighter-light--md {
+	@include md {
+		background-color: $light-color;
+	}
+}
+
+.box_sm-theme_background-fluid {
+	@extend .box_sm;
+	@extend .box_lighter-primary;
+	@include transition(0.3s);
+	&:hover {
+		border-color: rgba($color: $primary-color, $alpha: 1);
+		@include shadow(0 0 0 0.25rem rgba($color: $primary-color, $alpha: 0.15));
+	}
+	@include md {
+		@include corner(5px);
+		&:hover {
+			background-color: rgba($color: $primary-color, $alpha: 0.05);
+			border-color: transparent;
+			@include shadow(none);
+		}
+	}
+}
+.box_sm-theme_background-fluid-white {
+	@extend .box_sm-theme_background-fluid;
+	@include md {
+		@include corner(5px);
+		border-bottom: 1px solid rgba($color: $primary-color, $alpha: 0.4);
+		background-color: transparent;
+		&:hover {
+			border-bottom: 1px solid rgba($color: $primary-color, $alpha: 0.4);
+		}
+	}
+}
+
+
+//error/success
+.box_info-error {
+	border-color: $danger-color;
+	@include shadow(0 0 0 0.25rem rgba($color: $danger-color, $alpha: 0.15));
+}
+.box_info-success {
+	border-color: $success-color;
+	@include shadow(0 0 0 0.25rem rgba($color: $success-color, $alpha: 0.15));
+}
+
+.box_modal {
+	@include position(fixed, 0, 0, 0, 0, 100%, 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+	padding: 25px;
+}
+.box_modal_content {
+	@extend .box;
+	border: 1px solid $gray-border-color;
+	background-color: $light-color;
+	max-width: 500px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.box_modal_content-danger {
+	border-color: $danger-color;
+	background-color: #fcf3f5;
+}
+.box_modal-overlay {
+	@include position(fixed, 0, 0, 0, 0, 100%, 100%);
+	background-color: rgba($color: $light-color, $alpha: 0.75);
+}
