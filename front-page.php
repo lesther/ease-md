@@ -165,7 +165,7 @@
     </div>
 </section>
 
-<section class="section section_pad-top_none section_primary-accent">
+<section class="section section_pad-top_none section_primary-accent img_extend-right_hand">
     <div class="wrap-container-sm">
         <div class="row justify-content-end">
             <div class="col-12 col-lg-5">
@@ -186,6 +186,9 @@
                             </b>
                         </a>
                     </div>
+                </div>
+                <div class="d-lg-none mt-5">
+                    <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand@3x.png" ?>" class="block h-spacing-offset-left-xxl--md h-spacing-offset-left-lg-1">
                 </div>
             </div>
         </div>
@@ -273,7 +276,6 @@
                         </p>
                         <div class="mt-auto">
                             <p class="text-center text_spacing-none">
-                                <!-- last change -->
                                 <a href="" class="btn_lg btn_leading-accent h-corner-sm mt-3 text_weight-bold">
                                     ¡Prueba 1 mes gratis!
                                 </a>
@@ -349,7 +351,7 @@
     </div>
 </section>
 
-<section class="section section_pad-bottom_none section_pad-top_sm--md section_pad-top_xs section_pad-bottom_none" style="background-image: url('<?php echo get_theme_file_uri() . '/images/cover-color-v1.jpg' ?>' );">
+<section class="section section_pad-bottom_none section_pad-top_sm--md section_pad-top_xs section_pad-bottom_none h-overflow-hidden" style="background-image: url('<?php echo get_theme_file_uri() . '/images/cover-color-v1.jpg' ?>' );">
     <div class="wrap-container-sm">
         <div class="row align-items-center">
             <div class="col col-md-7">
@@ -376,7 +378,7 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="" class="d-block mx-auto">
+                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
             </div>
         </div>
     </div>
