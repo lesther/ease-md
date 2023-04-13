@@ -32,8 +32,6 @@
                             <b class="text_primary">para tu equipo</b> ¡en una sola app!
                         </span>
                     </p>
-                    <p class="text_primary-accent text_lg text_xl--lg  text_spacing-none">
-                    </p>
                     <div class="mt-4">
                         <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
                             <img src="<?php echo get_theme_file_uri() . "/images/playstore.svg" ?>" width="150">

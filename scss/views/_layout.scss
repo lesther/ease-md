@@ -195,7 +195,17 @@
             grid-template-columns: repeat(4,1fr);
         }
 
+        &_span-3{
+            @include md{
+                grid-template-columns: repeat(2,1fr);
+            }
+            @include lg{
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
+    
     }
+
 
     &__perk-item{
         padding: 10px;
@@ -211,6 +221,10 @@
         margin-left: auto;
         height: 70px;
         display: block;
+    }
+
+    &__perk-icon_lg{
+        height: 120px;
     }
 }
 
@@ -415,7 +429,7 @@
     }
     @include md {
         background-image: url('../images/phone-man.png');
-        @include background(calc(80% - 150px), bottom right -50%, no-repeat);
+        @include background(calc(80% - 220px), bottom right -35%, no-repeat);
     }
     @include lg {
         @include background(auto 100%, bottom right -100px, no-repeat);
@@ -736,6 +750,13 @@
         @include md{
             margin-left: 0;
             margin-right: 0;
+        }
+        &_corner-lg{
+            @include corner(15px);
+        }
+        &_primary-accent{
+            border-color: $primary-color--accent;
+            color: $primary-color--accent;
         }
     }
 }
@@ -1120,5 +1141,25 @@
         @include background(contain, right center, no-repeat);
         max-height: 538px;
         background-image: url('../images/mobile-in-hand-transparent@3x.png');
+    }
+}
+
+.soon-gradient{
+    background: linear-gradient(333deg, rgb(83 192 203) 10%, rgb(229 247 241) 80%);
+}
+
+.whatsapp-wrapper__btn{
+    flex-wrap: wrap;
+    background: linear-gradient(234deg, rgba(0,214,82,1) 0%, rgba(0,184,25,1) 100%);
+    &:hover{
+        background: linear-gradient(234deg, rgba(0,184,25,1) 0%, rgba(0,214,82,1) 100%);
+        color: #fff;
+    }
+}
+
+.whatsapp-wrapper{
+    justify-content: center;
+    @include md{
+        justify-content: flex-start;
     }
 }
