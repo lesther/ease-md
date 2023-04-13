@@ -1163,3 +1163,51 @@
         justify-content: flex-start;
     }
 }
+
+.bg_primary-highlight-accent{
+    background-color: $primary-highlight--accent;
+}
+
+.create-account-input {
+	display: block;
+	@include corner(6px);
+	width: 100%;
+	padding: 10px;
+	border: 1px solid transparent;
+	@include transition(0.3s);
+	background-color: $lighter-color;
+	&:focus {
+		@include shadow(0 0 0 0.25rem rgba($color: $leading-color--accent, $alpha: 0.30));
+		border-color: $leading-color--accent;
+	}
+}
+
+
+.checkbox-custom__label_rounded::before{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-custom__label_rounded::after{
+    background-size: 9px;
+}
+
+.checkbox-custom__widget_rounded:checked + .checkbox-custom__label_rounded::after, .checkbox-custom__widget_rounded:checked + .checkbox-custom__label_rounded::before{
+    border-radius: 50%;
+}
+
+.checkbox-custom__label_rounded::after{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-custom__title_sm{
+    font-size: 13px;
+}
+
+.checkbox-custom__text-label_sm{
+    display: flex;
+    align-items: center;
+}
