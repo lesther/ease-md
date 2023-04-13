@@ -32,7 +32,7 @@
                         </h2>
 
                         <div class="mt-5">
-                            <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.easymdv2.android" target="_blank">
                                 <img src="<?php echo get_theme_file_uri() . "/images/playstore.svg" ?>" width="150">
                             </a>
                             <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">

@@ -3,38 +3,34 @@
     get_header();
 ?>
 
-<section class="section section_pad-bottom_none section_pad-top_sm--md section_pad-top_xs section_pad-bottom_none h-overflow-hidden bg_primary-highlight-accent">
-    <div class="wrap-container-sm">
+
+<section class="seection section_pad-bottom_none section_pad-top_sm--sm section_leading-accent d-flex align-items-center h-overflow-hidden">
+    <div class="wrap-container">
         <div class="row align-items-center">
-            <div class="col col-md-7">
+            <div class="col-md-8">
                 <div class="text-center text-md-start">
                     <p class="text_primary-accent text_lg text_xl--md text_spacing-none text_weight-extra-bold">
                        Bienvenido a Easy MD
                     </p>
-                    <h2 class="title_lg title_hero--md title_hero-1--xl title_primary-accent title_weight-black">
-                        <span class="d-block">
-                             ¡Comienza
+                    <h1 class="title_xl title_hero-2--md title_hero-3--lg title_weight-black d-block title_primary-accent">
+                        <span class="d-md-block">
+                        ¡Comienza
                         </span>
-                        <span class="d-block">
-                           tu prueba gratis
-                        </span>
-                        <span class="d-block">
-                             ahora !
-                        </span>
-                    </h2>
+                        tu prueba gratis ahora!
+                    </h1>
                 </div>
             </div>
-            <div class="col-md-5">
-                <img src="http://easy-md.local/wp-content/themes/easymd/images/mobile-in-hand-v2@3x.png" alt="" class="d-block mx-auto h-max-width-sm h-max-width-sm-1--md h-max-width-none--md mt-4 mt-md-0">
+            <div class="col-md-4">
+                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
             </div>
         </div>
     </div>
 </section>
 
-<section class="section">
+<section class="section section_pad_sm">
 
     <div class="wrap-container_lg wrap-container_align-center">
-        <div class="text-center mt-3">
+        <div class="text-center">
                 <div class="d-flex mb-4 gap-4 justify-content-center align-items-center flex-column flex-md-row-reverse">
                     <h2 class="title_md title_spacing-none title_lg--sm h-line-height-sm-1 title_primary-accent">
                         Llena tus datos y crea tu usuario
@@ -88,7 +84,7 @@
                         </div>
                        
                         <div class="col-12">
-                            <div class="py-2">
+                            <div class="pt-2">
                                 <button type="submit" class="btn_leading-accent btn_hover-secondary btn_block btn_corner-sm h-font-sora text_weight-bold">
                                     Crear cuenta
                                 </button>
@@ -96,8 +92,6 @@
                         </div>
                     </div>
                 </form>
-
-                <a href="mailto:ventas@easymd.co" class="btn_link-light text_lg text_weight-bold mt-4 h-font-sora">ventas@easymd.co</a>
             </div>
     </div>
 

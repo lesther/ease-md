@@ -4,35 +4,28 @@
 ?>
 
 
-<section class="section section_pad-bottom_none section_pad-bottom_sm--md section_pad-top_none section_primary-accent img_extend-right_hand img_extend-right_hand-sm section_cuentas position_relative">
+<section class="section section_pad section_pad-md--sm section_pad-lg--lg section_primary-accent d-flex align-items-center options_bg img_extend-right_hand img_extend-right_hand-center">
     <div class="wrap-container-sm">
-        <div class="row justify-content-start justify-content-md-end">
-            <div class="col-12 col-md-6 col-xl-7">
-                <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-                    <div class="text-center text-md-start py-lg-4">
-                        <h2 class="title_lg title_xxl--md title_hero-1--lg title_light mt-4">
-                            <span class="h-show-block">
-                                ¡Ya tienes
-                            </span>
-                            <span class="h-show-block">
-                                tu cuenta!
-                            </span>
-                        </h2>
-                        <p class="text_lg text_light h-line-height-sm-1">
-                            ¡Descarga EasyMD app ahora!
-                        </p>
+        <div class="row justify-content-end">
+            <div class="col-12 col-lg-6">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="text-center text-lg-start py-lg-4">
+                        <h1 class="title_xl title_hero-2--sm title_hero-3--lg title_weight-black d-block title_light">
+                            ¡Ya tienes tu<span class="text_leading-accent">cuenta</span> !
+                        </h1>
+                        <p class="text_lg-1 text_light">¡Descarga EasyMD app ahora!</p>
                         <div class="mt-4">
-                            <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
-                                <img src="http://easy-md.local/wp-content/themes/easymd/images/playstore.svg" width="150">
+                            <a href="https://play.google.com/store/apps/details?id=com.easymdv2.android" target="_blank">
+                                <img src="<?php echo get_theme_file_uri() . "/images/playstore.svg" ?>" width="150">
                             </a>
                             <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
-                                <img src="http://easy-md.local/wp-content/themes/easymd/images/applestore.svg" width="135">
+                                <img src="<?php echo get_theme_file_uri() . "/images/applestore.svg" ?>" width="135">
                             </a>
-                       </div>
+                        </div>
                     </div>
                 </div>
-                <div class="d-md-none mt-5">
-                   <img src="http://easy-md.local/wp-content/themes/easymd/images/mobile-in-hand-v2@3x.png" alt="" class="d-block mx-auto h-max-width-sm h-max-width-sm-1--md h-max-width-none--md mt-4 mt-md-0">
+                <div class="d-lg-none mt-5">
+                    <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand@3x.png" ?>" class="block h-spacing-offset-left-xxl--md h-spacing-offset-left-lg-1">
                 </div>
             </div>
         </div>

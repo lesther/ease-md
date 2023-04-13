@@ -60,7 +60,7 @@
             <?php endif; ?>
             <div class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center h-position-relative">
                 <p class="text_sm text_light mb-2 m-lg-0">
-                    MICROSALUD S.A. EasyMD App. ©
+                    EasyMD LLC EasyMD App. ©
                 </p>
                 <div class="d-flex gap-2 align-items-center justify-content-center footer__legal flex-column flex-sm-row">
                     <a href="/politica-y-privacidad" class="btn_link-primary text_sm btn_link-hover-light">

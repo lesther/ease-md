@@ -245,7 +245,7 @@
     }
 
     &_bg{
-       @include lg{
+       @include sm{
             background-repeat: no-repeat;
             background-size: 20vw auto, 15vw auto, 20vw auto;
             background-image: url("../images/opt-bg-1.svg"),url("../images/opt-bg-2.svg"), url("../images/opt-bg-3.svg");
@@ -1130,7 +1130,7 @@
 .img_extend-right_hand {
     overflow: hidden;
 }
-.img_extend-right_hand:before {
+.img_extend-right_hand:after {
     @include lg {
         content: "";
         @include background(contain, left center, no-repeat);
@@ -1141,6 +1141,12 @@
         @include background(contain, right center, no-repeat);
         max-height: 538px;
         background-image: url('../images/mobile-in-hand-transparent@3x.png');
+    }
+}
+.img_extend-right_hand-center:after {
+    @include lg {
+        @include position(absolute, 0, 0, 0, null, 50%, 100%);
+        margin: auto;
     }
 }
 

@@ -3,15 +3,15 @@
     get_header();
 ?>
 
-<section class="section section_full_height section_primary-accent d-flex align-items-center options_bg">
-    <div class="wrap-container_lg h-spacing-horizontal-auto">
-        <div class="row align-items-center">
-            <div class="col col-md-5 text_align-center text_align-left--md">
+<section class="section  section_pad-lg section_pad-xl--lg section_primary-accent d-flex align-items-center options_bg">
+    <div class="wrap-container h-spacing-horizontal-auto">
+        <div class="row justify-content-center align-items-center text-lg-start text-center">
+            <div class="col-12 col-lg-auto">
                 <img src="<?php echo get_theme_file_uri() ?>/images/benefits-icon@3x.png" alt="" width="200">
             </div>
-            <div class="col-12 col-md-7">
-                <h1 class="title title_md title_hero--md title_light text_align-center text_align-left--md">Gracias Por Contactarnos</h1>
-                <p class="text text_light text_align-center text_align-left--md">Nos pondremos en contacto contigo en breve</p>
+            <div class="col-12 col-lg h-max-width-lg--lg">
+                <h1 class="title_lg title_hero--sm title_hero-2--xl title_weight-black d-block title_light">¡<span class="text_leading-accent">Gracias</span> por contactarnos!</h1>
+                <p class="text_lg-1 text_light">Nos pondremos en contacto contigo en breve</p>
             </div>
         </div>
     </div>
