@@ -6,7 +6,7 @@
     <div class="wrap-container">
         <div class="d-flex justify-content-between align-items-center flex-column flex-sm-row">
             <h1 class="h-font-sora title_primary-accent title_sm title_spacing-none">Plan Individual</h1>
-            <a href="#" class="btn btn_sm btn_primary-accent text_weight-bold">¡Prueba 1 mes gratis!</a>
+            <a href="https://onelink.to/hjqc9u" class="btn btn_sm btn_primary-accent text_weight-bold">¡Prueba 1 mes gratis!</a>
         </div>
     </div>
 </section>
@@ -15,7 +15,7 @@
     <div class="wrap-container-sm">
         <div class="row align-items-center">
             <div class="col-md-6 d-none d-md-block">
-                <img src="<?php echo get_theme_file_uri() . "/images/doctor_and_patient_md.png" ?>" alt="" class="d-block">
+                <img src="<?php echo get_theme_file_uri() . "/images/doctor_and_patient_md.png" ?>" alt="doctor-and-patient" class="d-block">
             </div>
             <div class="col">
                 <div class="text-center text-md-start">
@@ -35,16 +35,16 @@
                     <p class="text_primary-accent text_lg text_xl--md  text_spacing-none">
                     </p>
                     <div class="mt-4">
-                        <a href="#">
+                        <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
                             <img src="<?php echo get_theme_file_uri() . "/images/playstore.svg" ?>" width="150">
                         </a>
-                        <a href="#">
+                        <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
                             <img src="<?php echo get_theme_file_uri() . "/images/applestore.svg" ?>" width="135">
                         </a>
                     </div>
 
                     <div class="d-md-none">
-                        <img src="<?php echo get_theme_file_uri() . "/images/doctor_and_patient_sm.png" ?>" alt="">
+                        <img src="<?php echo get_theme_file_uri() . "/images/doctor_and_patient_sm.png" ?>" alt="doctor-and-patient">
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
 
 <section class="section section_primary-accent">
     <div class="wrap-container">
-        <h2 class="title title_light title_lg title_hero-1--md title_hero--xl title_align-center">Beneficios exclusivos</h2>
+        <h2 class="title title_light title_lg title_hero--md title_align-center">Beneficios exclusivos</h2>
         <p class="text_light text_md text_lg--sm text_align-center text_spacing-none">
             Conectamos todos los servicios de salud en un solo lugar para <b class="text_weight-black">ahorrarte tiempo y dinero.</b>
         </p>
@@ -180,7 +180,7 @@
                         <p class="text_lg text_light h-line-height-sm-1">
                             Con el plan familiar, tú y hasta 3 personas más podrán tener un perfil individual y contar con los beneficios exlcusivos, además agregar a niños menores de 16 años y adultos mayores no generará costo adicional.
                         </p>
-                        <a href="#" class="btn_lg h-corner-sm btn_leading-accent btn_hover-secondary mt-3 py-3">
+                        <a href="https://onelink.to/hjqc9u" class="btn_lg h-corner-sm btn_leading-accent btn_hover-secondary mt-3 py-3">
                             <b class="h-font-sora text_primary-accent text_lg-1">
                                 ¡Prueba 1 mes gratis!
                             </b>
@@ -207,7 +207,7 @@
 <section class="section options options_bg-1 options_bg">
     <div class="wrap-container-sm options__container options__container_grid">
         <div class="text-center mb-5">
-            <h2 class="title title_weight-black title_primary-accent title_lg title_hero-1--md title_hero--xl title_align-center h-line-height-sm-1">
+            <h2 class="title title_weight-black title_primary-accent title_lg title_hero--md title_align-center h-line-height-sm-1">
                 Elige el plan
                 <span class="d-lg-block">
                     que más te conviene
@@ -276,7 +276,7 @@
                         </p>
                         <div class="mt-auto">
                             <p class="text-center text_spacing-none">
-                                <a href="" class="btn_lg btn_leading-accent h-corner-sm mt-3 text_weight-bold">
+                                <a href="https://onelink.to/hjqc9u" class="btn_lg btn_leading-accent h-corner-sm mt-3 text_weight-bold">
                                     ¡Prueba 1 mes gratis!
                                 </a>
                             </p>
@@ -339,7 +339,7 @@
                         </p>
                         <div class="mt-auto">
                             <p class="text-center text_spacing-none">
-                                <a href="" class="btn_lg btn_leading-accent h-corner-sm mt-3 text_weight-bold">
+                                <a href="https://onelink.to/hjqc9u" class="btn_lg btn_leading-accent h-corner-sm mt-3 text_weight-bold">
                                     ¡Prueba 1 mes gratis!
                                 </a>
                             </p>
@@ -356,7 +356,7 @@
         <div class="row align-items-center">
             <div class="col col-md-7">
                 <div class="text-center text-md-start">
-                    <h2 class="title_xxl title_hero--sm title_xxl--md title_hero-1--xl title_primary-accent title_weight-black mb-5">
+                    <h2 class="title_lg title_hero--md title_hero-1--xl title_primary-accent title_weight-black mb-5">
                         <span class="d-block">
                             EasyMD
                         </span>
@@ -368,10 +368,10 @@
                         ¡Descárgala la app <b class="text_weight-black">gratis</b>
                     </p>
                     <div class="mt-4">
-                        <a href="#">
+                        <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
                             <img src="<?php echo get_theme_file_uri() . "/images/playstore.svg" ?>" width="150">
                         </a>
-                        <a href="#">
+                        <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
                             <img src="<?php echo get_theme_file_uri() . "/images/applestore.svg" ?>" width="135">
                         </a>
                     </div>
@@ -386,7 +386,7 @@
 
 <section class="section section_lighter testimonials">
     <div class="text-center mb-md-4 mb-lg-5">
-        <h2 class="title title_weight-black title_primary-accent title_lg title_hero-1--md title_hero--xl title_align-center h-line-height-sm-1">
+        <h2 class="title title_weight-black title_primary-accent title_lg title_hero--md title_align-center h-line-height-sm-1">
             Testimonios
         </h2>
     </div>

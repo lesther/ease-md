@@ -14,17 +14,17 @@
 	}
 }
 
+.wrap-container-xs {
+  @extend .wrap-container;
+  @include md {
+    max-width: calc(#{$max-width-container-page} - 300px);
+  }
+}
+
 .wrap-container-sm {
   @extend .wrap-container;
   @include md {
 		max-width: calc(#{$max-width-container-page} - 200px);
-  }
-}
-
-.wrap-container-xs {
-  @extend .wrap-container;
-  @include md {
-		max-width: calc(#{$max-width-container-page} - 300px);
   }
 }
 

@@ -28,18 +28,18 @@
             
                 <div class="nav__links" id="navLinks">
                     <div class="nav__main-links">
-                        <a href="/" class="nav__main-link active">Plan familiar</a>
+                        <a href="/" class="nav__main-link">Plan familiar</a>
                         <a href="/plan-empresarial" class="nav__main-link">Plan empresarial</a>
                         <a href="/signos-vitales" class="nav__main-link">Signos Vitales</a>
-                        <a href="/especialistas" class="nav__main-link">Especialistas</a>
+                        <a href="https://www.easymd.co/md/encuentra/especialistas" class="nav__main-link">Especialistas</a>
                         <a href="/blog" class="nav__main-link">Blog</a>
                     </div>
         
                     <div class="d-flex flex-column flex-xl-row p-3 p-xl-0 gap-2 text-center">
-                        <a href="#" class="btn_corner-sm btn_primary btn btn_sm px-4 text_weight-bold justify-content-center">
+                        <a href="https://onelink.to/hjqc9u" class="btn_corner-sm btn_primary btn btn_sm px-4 text_weight-bold justify-content-center">
                             Crear Cuenta
                         </a>
-                        <a href="#" class="btn_corner-sm btn_outline-primary btn btn_sm px-4 text_weight-bold justify-content-center">
+                        <a href="https://www.easymd.co/md/auth/login" class="btn_corner-sm btn_outline-primary btn btn_sm px-4 text_weight-bold justify-content-center">
                             Iniciar sesión
                         </a>
                     </div>

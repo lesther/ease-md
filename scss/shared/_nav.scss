@@ -41,6 +41,10 @@
         font-weight: bold;
         color: #003970;
 
+        &.active {
+            font-weight: 900;
+        }
+
         &:first-child{
             margin-top: 25px;
             padding-top: 0;

@@ -57,25 +57,25 @@
                     MICROSALUD S.A. EasyMD App. ©
                 </p>
                 <div class="d-flex gap-2 align-items-center justify-content-center footer__legal flex-column flex-sm-row">
-                    <a href="" class="btn_link-primary text_sm">
+                    <a href="/politica-y-privacidad" class="btn_link-primary text_sm btn_link-hover-light">
                         Pólitica de privacidad
                     </a>
                     <span class="text_primary text_spacing-none d-none d-sm-block">
                         |
                     </span>
-                    <a href="" class="btn_link-primary text_sm">
+                    <a href="/terminos-y-condiciones" class="btn_link-primary text_sm  btn_link-hover-light">
                         Términos y condiciones
                     </a>
                 </div>
                 <div class="d-flex gap-4 mb-2 justify-content-center m-lg-0">
-                    <a href="#">
+                    <a href="https://www.instagram.com/easymd.ni/" target="_blank">
                         <img src="<?php echo get_theme_file_uri() . "/images/instagram.svg" ?>" alt="instagram-icon" width="25">
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/easymdnic/" target="_blank">
                         <img src="<?php echo get_theme_file_uri() . "/images/facebook.svg" ?>" alt="facebook-icon" width="10">
                     </a>
-                    <a href="#">
-                        <img src="<?php echo get_theme_file_uri() . "/images/linkedin.svg" ?>" alt="fb-icon" width="20">
+                    <a href="https://ni.linkedin.com/company/easymd" target="_blank">
+                        <img src="<?php echo get_theme_file_uri() . "/images/linkedin.svg" ?>" alt="linkedin-icon" width="20">
                     </a>
                 </div>
             </div>

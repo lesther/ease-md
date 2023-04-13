@@ -262,10 +262,11 @@
     &__item{
         background-color: #F5F5F5;
         border-radius: 10px;
-        color: $primary-color--accent;;
+        color: $primary-color--accent;
         margin: 0 auto 30px;
         max-width: 400px;
         padding: 25px;
+        position: relative;
         
         @include sm{
             border-radius: 20px;
@@ -276,6 +277,31 @@
             display: flex;
             flex-direction: column;
             margin-bottom: 0;
+        }
+    }
+    &__item-full-width {
+        max-width: none;
+    }
+    &__item-primary-accent {
+        background-color: $primary-color--accent;
+        color: $light-color;
+    }
+    &__item-secondary-accent {
+        background-color: $secondary-color--accent;
+        color: $light-color;
+    }
+    &__item-icon {
+        width: 80px;
+        display: block;
+        margin-bottom: 15px;
+        @include sm {
+            @include position(absolute, 10px, null, null, 20px, 80px, null);
+        }
+        @include md {
+            width: 60px;
+        }
+        @include lg {
+            width: 80px;
         }
     }
 
@@ -1079,7 +1105,7 @@
 }
 
 //front page
- 
+
 .img_extend-right_hand {
     overflow: hidden;
 }

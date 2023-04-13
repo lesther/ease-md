@@ -254,7 +254,7 @@
 		&:focus,
 		&:active,
 		&:hover {
-			color: map-get($value, 'bg');
+			color: map-get($value, 'bg') !important;
 		}
 	}
 }

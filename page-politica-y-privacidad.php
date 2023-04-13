@@ -15,7 +15,7 @@
             Estos términos y condiciones crean un contrato entre usted y EasyMD (el “Acuerdo”). Lea el Acuerdo detenidamente.
         </p>
         <p class="text_lg text_xl--md text_primary-accent h-font-sora h-line-height-sm-1 h-line-height-md">
-            <a href="https://drive.google.com/file/d/1UdAt126crXOykXqJ_oAG6UaQcKlPUIVX/view?usp=share_link" class="btn_link-primary btn_link-hover-secondary h-text-underline" target="_blank">
+            <a href="https://drive.google.com/file/d/1Vm9O_OIOnFzIl56k731jnfEvScqGVHgP/view?usp=share_link" class="btn_link-primary btn_link-hover-secondary h-text-underline" target="_blank">
                 Descargue una copia de los Términos y Condiciones (PDF)
             </a>
         </p>
