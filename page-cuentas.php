@@ -21,11 +21,14 @@
                         <p class="text_lg text_light h-line-height-sm-1">
                             ¡Descarga EasyMD app ahora!
                         </p>
-                        <a href="https://onelink.to/hjqc9u" class="btn_lg h-corner-sm btn_leading-accent btn_hover-secondary mt-3 py-3">
-                            <b class="h-font-sora text_primary-accent text_lg-1">
-                                ¡Prueba 1 mes gratis!
-                            </b>
-                        </a>
+                        <div class="mt-4">
+                            <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
+                                <img src="http://easy-md.local/wp-content/themes/easymd/images/playstore.svg" width="150">
+                            </a>
+                            <a href="https://apps.apple.com/es/app/easymd/id1579924481" target="_blank">
+                                <img src="http://easy-md.local/wp-content/themes/easymd/images/applestore.svg" width="135">
+                            </a>
+                       </div>
                     </div>
                 </div>
                 <div class="d-md-none mt-5">
