@@ -1211,3 +1211,40 @@
     display: flex;
     align-items: center;
 }
+
+.section_cuentas{
+    margin-top: 100px;
+    &:after{
+        content: '';
+        height: 100px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        background-color: $primary-color--accent;
+      
+    }
+    overflow: visible;
+}
+
+.img_extend-right_hand-sm{
+
+    @include md{
+        &:before{
+            content: "";
+            -webkit-background-size: contain;
+            -moz-background-size: contain;
+            -o-background-size: contain;
+            background-size: contain;
+            background-position: left center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-image: url(../images/mobile-in-hand@3x.png);
+        }
+    }
+}
