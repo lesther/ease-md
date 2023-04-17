@@ -100,7 +100,7 @@
                     </p>
                 </article>
                 <article class="benefits__perk-item d-flex align-items-center justify-content-center p-0">
-                    <img src="<?php echo get_theme_file_uri() . "/images/benefits-icon.png" ?>" alt="" width="190">
+                    <img src="<?php echo get_theme_file_uri() . "/images/benefits-icon.png" ?>" alt="benefits-icon" width="190">
                 </article>
             </div>
         </div>
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_theme_file_uri() . "/images/mobile-screenshot@3x.png" ?>" alt="" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
+                    <img src="<?php echo get_theme_file_uri() . "/images/mobile-screenshot@3x.png" ?>" alt="mobile-in-hand" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
                 </div>
             </div>
         </div>
@@ -252,12 +252,12 @@
                         </p>
                         <div class="d-inline-flex flex-wrap gap-2 align-items-center justify-content-center">
                             <div>
-                                <a href="">
+                                <a href="https://wa.me/50578726684" target="_blank">
                                     <img src="<?php echo get_theme_file_uri() . "/images/whatsapp-icon.png" ?>" alt="whatsapp-icon" width="60">
                                 </a>
                             </div>
                             <div>
-                                <a href="" class="btn btn_corner-md btn_success btn_lg h-max-width-sm text-center py-2">
+                                <a href="https://wa.me/50578726684" target="_blank" class="btn btn_corner-md btn_success btn_lg h-max-width-sm text-center py-2">
                                     <span class="h-font-sora text_md text_weight-semi-bold">
                                         ¡Escríbenos por WhatsApp!
                                     </span>
@@ -267,7 +267,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="<?php echo get_theme_file_uri() . "/images/temperature-icon.png" ?>" alt="" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
+                    <img src="<?php echo get_theme_file_uri() . "/images/temperature-icon.png" ?>" alt="temperature-icon" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
                 </div>
             </div>
         </div>
@@ -286,11 +286,11 @@
                         <div class="testimonials__profile" style="background-image: url('<?php echo get_theme_file_uri() . '/images/image__5.png' ?>' );"></div>
                         <div class="testimonials__header">
                             <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
                             </div>
                             <h3 class="text_lg text_primary-accent text_spacing-none">
                                 María López
@@ -311,11 +311,11 @@
                         <div class="testimonials__profile" style="background-image: url('<?php echo get_theme_file_uri() . '/images/image__3.png' ?>');"></div>
                         <div class="testimonials__header">
                             <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
                             </div>
                             <h3 class="text_lg text_primary-accent text_spacing-none">
                                 Jesús Salazar
@@ -337,11 +337,11 @@
                         <div class="testimonials__profile" style="background-image: url('<?php echo get_theme_file_uri() . '/images/image__4.png' ?>'); "></div>
                         <div class="testimonials__header">
                             <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                                <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
                             </div>
                             <h3 class="text_lg text_primary-accent text_spacing-none">
                                 Levi Soto

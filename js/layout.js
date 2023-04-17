@@ -51,6 +51,31 @@ if(document.querySelector("#swiper-testimonials")){
     });
 }
 
+if(document.querySelector("#swiper-logos")){
+    const swiper = new Swiper('#swiper-logos', {
+        speed: 400,
+        spaceBetween: 10,
+        grabCursor: true,
+        slidesPerView: 1,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            400: {
+                slidesPerView: 2,
+            },
+            576: {
+                slidesPerView: 3,
+            }
+        }
+    });
+}
+
 if(document.querySelector("#swiper-testimonials-sm")){
     const swiper = new Swiper('#swiper-testimonials-sm', {
         speed: 400,

@@ -60,7 +60,7 @@
         </p>
         <div class="benefits__perks mt-5">
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/emergency-kit.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/emergency-kit.svg" ?>" alt="emergency-kit-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Médicos 24/7
                 </p>
@@ -69,7 +69,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/heart.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/heart.svg" ?>" alt="heart-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Psicología
                 </p>
@@ -78,7 +78,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/white-cross.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/white-cross.svg" ?>" alt="white-cross-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Farmacia
                 </p>
@@ -87,7 +87,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/chemistry.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/chemistry.svg" ?>" alt="chemistry-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Laboratorio
                 </p>
@@ -96,7 +96,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/brocoli.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/brocoli.svg" ?>" alt="brocoli-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Nutrición
                 </p>
@@ -105,7 +105,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/tooth.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/tooth.svg" ?>" alt="tooth-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Odontología
                 </p>
@@ -114,7 +114,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/lotus.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/lotus.svg" ?>" alt="lotus-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Wellness
                 </p>
@@ -123,7 +123,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/glasses-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/glasses-icons.svg" ?>" alt="glasses-icons" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Ópticas
                 </p>
@@ -132,7 +132,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/physiotherapy-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/physiotherapy-icons.svg" ?>" alt="physiotherapy-icons" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Fisioterapia
                 </p>
@@ -141,7 +141,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/stethoscope-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/stethoscope-icons.svg" ?>" alt="stethoscope-icons" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Especialistas
                 </p>
@@ -150,7 +150,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/emergency-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/emergency-icons.svg" ?>" alt="emergency-icons" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Emergencia
                 </p>
@@ -159,7 +159,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item d-flex align-items-center justify-content-center p-0">
-                <img src="<?php echo get_theme_file_uri() . "/images/benefits-icon.png" ?>" alt="" width="190">
+                <img src="<?php echo get_theme_file_uri() . "/images/benefits-icon.png" ?>" alt="benefits-icon" width="190">
             </article>
         </div>
     </div>
@@ -378,7 +378,7 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
+                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="mobile-in-hand" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
             </div>
         </div>
     </div>
@@ -397,11 +397,11 @@
                     <div class="testimonials__profile" style="background-image: url('<?php echo get_theme_file_uri() . '/images/image__5.png' ?>' );"></div>
                     <div class="testimonials__header">
                         <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
                         </div>
                         <h3 class="text_lg text_primary-accent text_spacing-none">
                             María López
@@ -422,11 +422,11 @@
                     <div class="testimonials__profile" style="background-image: url('<?php echo get_theme_file_uri() . '/images/image__3.png' ?>');"></div>
                     <div class="testimonials__header">
                         <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star" width="15">
                         </div>
                         <h3 class="text_lg text_primary-accent text_spacing-none">
                             Jesús Salazar
@@ -448,11 +448,11 @@
                     <div class="testimonials__profile" style="background-image: url('<?php echo get_theme_file_uri() . '/images/image__4.png' ?>'); "></div>
                     <div class="testimonials__header">
                         <div class="d-flex gap-2 mb-3 justify-content-center justify-content-md-start">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
-                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
+                            <img src="<?php echo get_theme_file_uri() . "/images/star.svg" ?>" alt="star-icon" width="15">
                         </div>
                         <h3 class="text_lg text_primary-accent text_spacing-none">
                             Levi Soto

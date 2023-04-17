@@ -7,7 +7,7 @@
     <div class="wrap-container h-spacing-horizontal-auto">
         <div class="row justify-content-center align-items-center text-lg-start text-center">
             <div class="col-12 col-lg-auto">
-                <img src="<?php echo get_theme_file_uri() ?>/images/benefits-icon@3x.png" alt="" width="200">
+                <img src="<?php echo get_theme_file_uri() ?>/images/benefits-icon@3x.png" alt="benefits-icon" width="200">
             </div>
             <div class="col-12 col-lg h-max-width-lg--lg">
                 <h1 class="title_lg title_hero--sm title_hero-2--xl title_weight-black d-block title_light">¡<span class="text_leading-accent">Gracias</span> por contactarnos!</h1>

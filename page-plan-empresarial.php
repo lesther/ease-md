@@ -61,7 +61,7 @@
         </p>
         <div class="benefits__perks mt-5">
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/emergency-kit.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/emergency-kit.svg" ?>" alt="emergency-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Médicos 24/7
                 </p>
@@ -70,7 +70,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/heart.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/heart.svg" ?>" alt="heart-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Psicología
                 </p>
@@ -79,7 +79,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/white-cross.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/white-cross.svg" ?>" alt="white-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Farmacia
                 </p>
@@ -88,7 +88,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/chemistry.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/chemistry.svg" ?>" alt="chemistry-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Laboratorio
                 </p>
@@ -97,7 +97,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/brocoli.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/brocoli.svg" ?>" alt="brocoli-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Nutrición
                 </p>
@@ -106,7 +106,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/tooth.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/tooth.svg" ?>" alt="tooth-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Odontología
                 </p>
@@ -115,7 +115,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/lotus.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/lotus.svg" ?>" alt="lotus-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Wellness
                 </p>
@@ -124,7 +124,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/glasses-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/glasses-icons.svg" ?>" alt="glasses-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Ópticas
                 </p>
@@ -133,7 +133,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/physiotherapy-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/physiotherapy-icons.svg" ?>" alt="physiotherapy-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Fisioterapia
                 </p>
@@ -142,7 +142,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/stethoscope-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/stethoscope-icons.svg" ?>" alt="stethoscope-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Especialistas
                 </p>
@@ -151,7 +151,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item">
-                <img src="<?php echo get_theme_file_uri() . "/images/emergency-icons.svg" ?>" alt="" class="benefits__perk-icon">
+                <img src="<?php echo get_theme_file_uri() . "/images/emergency-icons.svg" ?>" alt="emergency-icon" class="benefits__perk-icon">
                 <p class="title_sm title_primary-accent title_spacing-sm mt-2 title_weight-black">
                     Emergencia
                 </p>
@@ -160,7 +160,7 @@
                 </p>
             </article>
             <article class="benefits__perk-item d-flex align-items-center justify-content-center p-0">
-                <img src="<?php echo get_theme_file_uri() . "/images/benefits-icon.png" ?>" alt="" width="190">
+                <img src="<?php echo get_theme_file_uri() . "/images/benefits-icon.png" ?>" alt="benefits-icon" width="190">
             </article>
         </div>
     </div>
@@ -278,7 +278,7 @@
                 </div>
             </div>
             <div>
-                <a href="" class="btn_xl btn_leading-accent h-corner-sm mt-3 text_weight-bold px-sm-5">
+                <a href="https://wa.me/50578726684" target="_blank" class="btn_xl btn_leading-accent h-corner-sm mt-3 text_weight-bold px-sm-5">
                     ¡Contáctanos!
                 </a>
             </div>
@@ -310,12 +310,12 @@
                     </p>
                     <div class="d-inline-flex flex-wrap gap-2 align-items-center justify-content-center">
                         <div>
-                            <a href="">
+                            <a href="https://wa.me/50578726684" target="_blank">
                                 <img src="<?php echo get_theme_file_uri() . "/images/whatsapp-icon.png" ?>" alt="whatsapp-icon" width="60">
                             </a>
                         </div>
                         <div>
-                            <a href="" class="btn btn_corner-md btn_success btn_lg h-max-width-sm text-center py-2">
+                            <a href="https://wa.me/50578726684" target="_blank" class="btn btn_corner-md btn_success btn_lg h-max-width-sm text-center py-2">
                                 <span class="h-font-sora text_md text_weight-semi-bold">
                                     ¡Escríbenos por WhatsApp!
                                 </span>
@@ -325,7 +325,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
+                <img src="<?php echo get_theme_file_uri() . "/images/mobile-in-hand-v2@3x.png" ?>" alt="mobile-in-hand" class="d-block mx-auto h-max-width-sm-1 h-max-width-none--md mt-4 mt-md-0">
             </div>
         </div>
     </div>
@@ -338,64 +338,166 @@
         </h2>
         <div class="h-hide h-show--md">
             <div class="d-flex gap-4 flex-wrap align-items-center justify-content-center">
-                <a href="" class="mx-2">
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/mundo-flete.png" alt="mundo-flete" width="230">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/sitel-logo.png" alt="sitel-logo" width="150">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/mc-gregor-logo.png" alt="mc-gregor-logo" width="250">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/ibex-logo.png" alt="ibex-logo" width="100">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/farmacia-xolotlan.png" alt="farmacia-xolotlan" width="150">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/tizo-logo.png" alt="tizo-logo" width="100">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/grupo-sol.png" alt="grupo-sol" width="130">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/medlab-logo.png" alt="medlab-logo" width="230">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/medco-logo.png" alt="medco-logo" width="130">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/tigo-logo.png" alt="tigo-logo" width="130">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/rallis-logo.png" alt="rallis-logo" width="130">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/pedidos-ya-logo.png" alt="pedidos-ya-logo" width="150">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/optica-matamoros-logo.png" alt="optica-matamoros-logo" width="110">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/f911-logo.png" alt="f911-logo" width="100">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/pharaohs-logo.png" alt="pharaohs-logo" width="120">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/teleperformance-logo.png" alt="teleperformance-logo" width="250">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/oceanica-logo.png" alt="oceanica-logo" width="180">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/estrella-logo.png" alt="estrella-logo" width="110">
-                </a>
-                <a href="" class="mx-2">
+                </span>
+                <span class="mx-2">
                     <img src="<?php echo get_theme_file_uri() ?>/images/farmacia-centroamericana-logo.png" alt="farmacia-centroamericana-logo" width="150">
-                </a>
+                </span>
             </div>
+        </div>
+        <div class="swiper h-hide--md mb-5" id="swiper-logos">
+            <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/mundo-flete.png" alt="mundo-flete" width="230">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/sitel-logo.png" alt="sitel-logo" width="150">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/mc-gregor-logo.png" alt="mc-gregor-logo" width="250">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/ibex-logo.png" alt="ibex-logo" width="100">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/farmacia-xolotlan.png" alt="farmacia-xolotlan" width="150">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/tizo-logo.png" alt="tizo-logo" width="100">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/grupo-sol.png" alt="grupo-sol" width="130">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/medlab-logo.png" alt="medlab-logo" width="230">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/medco-logo.png" alt="medco-logo" width="130">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/tigo-logo.png" alt="tigo-logo" width="130">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/rallis-logo.png" alt="rallis-logo" width="130">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/pedidos-ya-logo.png" alt="pedidos-ya-logo" width="150">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/optica-matamoros-logo.png" alt="optica-matamoros-logo" width="110">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/f911-logo.png" alt="f911-logo" width="100">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/pharaohs-logo.png" alt="pharaohs-logo" width="120">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/teleperformance-logo.png" alt="teleperformance-logo" width="250">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/oceanica-logo.png" alt="oceanica-logo" width="180">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/estrella-logo.png" alt="estrella-logo" width="110">
+                    </span>
+                </div>
+                <div class="swiper-slide text-center">
+                    <span class="mx-2">
+                        <img src="<?php echo get_theme_file_uri() ?>/images/farmacia-centroamericana-logo.png" alt="farmacia-centroamericana-logo" width="150">
+                    </span>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
 </section>

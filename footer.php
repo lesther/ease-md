@@ -1,7 +1,7 @@
 
 <footer class="section section_pad-xs section_primary-accent footer">
     <div class="bottom_fixed-widget">
-        <a href="#">
+        <a href="https://wa.me/50578726684" target="_blank">
             <img src="<?php echo get_theme_file_uri() . "/images/whatsapp-icon.png" ?>" alt="whatsapp-icon" width="60">
         </a>
     </div>

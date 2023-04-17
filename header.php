@@ -32,7 +32,7 @@
                         <a href="/plan-empresarial" class="nav__main-link">Plan empresarial</a>
                         <a href="/signos-vitales" class="nav__main-link">Signos Vitales</a>
                         <a href="https://www.easymd.co/md/encuentra/especialistas" class="nav__main-link">Especialistas</a>
-                        <a href="/blog" class="nav__main-link">Blog</a>
+                        <!-- <a href="/blog" class="nav__main-link">Blog</a> -->
                     </div>
         
                     <div class="d-flex flex-column flex-xl-row p-3 p-xl-0 gap-2 text-center">
