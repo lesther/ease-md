@@ -10,7 +10,7 @@ get_header();
     </div>
 </section>
 <section class="section section_pad section_pad-md--sm section_pad-sm-1--lg section_primary-accent d-flex align-items-center">
-    <div class="wrap-container-sm">
+    <div class="wrap-container-xs">
         <div class="row">
             <div class="col-12">
                 <div class="d-flex justify-content-center align-items-center">
@@ -35,7 +35,7 @@ get_header();
 </div>
 
 <section class="section section_pad-sm">
-    <div class="wrap-container-sm">
+    <div class="wrap-container-xs">
         <p class="d-flex flex-wrap align-items-center gap-3 text_gray">
             <a href="/blog" class="btn_sm btn_outline-primary-accent btn_hover-primary-accent btn_corner-md text_weight-bold">
                 Blog
@@ -45,8 +45,8 @@ get_header();
     </div>
 </section>
 
-<section class="section section_pad-top_none section_pad-bottom_md--sm">
-    <div class="wrap-container-sm">
+<section class="section section_pad-top_none section_pad-bottom_sm--sm section_pad-bottom_md--sm">
+    <div class="wrap-container-xs">
         <div class="content-post_image">
             <div>
                 <?php the_post_thumbnail(); ?>
