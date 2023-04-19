@@ -1280,6 +1280,7 @@
     }
     h2 {
         @extend .title_lg;
+        color: $primary-color--accent
     }
     h3 {
         @extend .title_md;
@@ -1319,7 +1320,7 @@
     ul {
         @extend .bullet-list;
     }
-    li {
+    ul li {
         @extend .bullet-list__item;
     }
     ol {
@@ -1327,20 +1328,31 @@
     }
     ol li {
         padding-left: 40px;
+        position: relative;
        &:before {
             content: counters(item, ".") " .";
+            color: $primary-color;
             counter-increment: item;
             background-color: transparent;
             font-weight: bold;
-            width: auto;
-            height: auto;
-            top: 0px;
             font-size: inherit;
             @include corner(3px);
             padding: 0px 5px;
+            @include position(absolute, 0, null, -30px, null, auto, auto);
+            text-align: right;
+            min-width: 60px;
         }
     }
     p img {
         margin: 0 0 40px 0;
+    }
+    .box_tooltip {
+        letter-spacing: 0;
+        width: 100%;
+        margin: 32px 0;
+        padding: 24px 32px;
+        @include corner(10px);
+        background-color: $lighter-color;
+        color: $gray-color--accent;
     }
 }
