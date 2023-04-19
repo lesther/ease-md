@@ -15,37 +15,8 @@
                             ¡Contáctanos!
                         </h2>
                     </div>
-                    <form class="footer__form">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <div class="py-2">
-                                    <input type="text" name="name" id="name" placeholder="Nombre y apellidos" class="footer__input" required>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="py-2">
-                                    <input type="text" name="departamento" id="departamento" placeholder="Ciudad" class="footer__input" required>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="py-2">
-                                    <input type="text" name="email" id="email" placeholder="Ciudad" class="footer__input" required>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="py-2">
-                                    <textarea name="mensaje" id="mensaje" class="footer__input" placeholder="Mensaje" rows="4" required></textarea>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="py-2">
-                                    <button type="submit" class="btn_leading-accent btn_hover-secondary btn_block btn_corner-sm h-font-sora text_weight-bold">
-                                        Enviar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+
+                    <?php echo do_shortcode('[forminator_form id="44"]'); ?>
 
                     <a href="mailto:ventas@easymd.co" class="btn_link-light text_lg text_weight-bold mt-4 h-font-sora">ventas@easymd.co</a>
                 </div>
