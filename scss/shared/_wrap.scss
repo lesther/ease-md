@@ -78,6 +78,10 @@
     max-width: 640px;
   }
 
+  .wrap-container_lg-1#{$size} {
+    max-width: 700px;
+  }
+
   .wrap-container_xl#{$size} {
     max-width: 1000px;
   }

@@ -5,18 +5,20 @@
             <img src="<?php echo get_theme_file_uri() . "/images/whatsapp-icon.png" ?>" alt="whatsapp-icon" width="60">
         </a>
     </div>
-    <div class=" <?php echo (!isset($GLOBALS["hide_footer_form"]) ? "wrap-container_lg" : "wrap-container_xl") ?> wrap-container_align-center">
+    <div class=" <?php echo (!isset($GLOBALS["hide_footer_form"]) ? "wrap-container_lg-1" : "wrap-container_xl") ?> wrap-container_align-center">
         <?php if(!isset($GLOBALS["hide_footer_form"])): ?>
             <div class="footer__content">
                 <div class="text-center mt-3">
                     <div class="d-flex mb-4 gap-4 justify-content-center align-items-center flex-column flex-md-row-reverse">
                         <img src="<?php echo get_theme_file_uri() . "/images/logo-light-2.svg" ?>" alt="ease-md-logo" width="120">
-                        <h2 class="title_md title_spacing-none title_lg--sm h-line-height-sm-1 title_light">
+                        <h2 class="title_md title_spacing-none title_lg--sm title_xl--lg h-line-height-sm-1 title_light">
                             ¡Contáctanos!
                         </h2>
                     </div>
 
-                    <?php echo do_shortcode('[forminator_form id="44"]'); ?>
+                    <div class="easy-form_footer">
+                        <?php echo do_shortcode('[forminator_form id="44"]'); ?>
+                    </div>
 
                     <a href="mailto:ventas@easymd.co" class="btn_link-light text_lg text_weight-bold mt-4 h-font-sora">ventas@easymd.co</a>
                 </div>
